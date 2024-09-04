@@ -60,7 +60,7 @@ const colorHexCodes = [
 
 document.getElementById("btn").onclick=function clicked() {
 
- const num= Math.floor(Math.random() * 56 +0);
+ const num= Math.floor(Math.random() * colorHexCodes.length +0);
 
  document.getElementById("colorcode").textContent=colorHexCodes[num];
  let colr=colorHexCodes[num];
